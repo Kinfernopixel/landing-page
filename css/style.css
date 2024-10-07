@@ -9682,3 +9682,46 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+ 
+.tech-stack {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);  
+      gap: 20px;
+      justify-items: center;
+      padding: 30px 0;
+    }
+    
+.icon img {
+      width: 100px;
+      height: 100px;
+      animation: glitter 3s infinite, move 5s infinite;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); 
+      transition: box-shadow 0.3s ease-in-out;
+    }
+    
+.icon img:hover {
+      box-shadow: 0 0 30px rgba(255, 255, 255, 1);  
+    }
+    
+   
+ @keyframes glitter {
+      0%, 100% {
+        filter: brightness(100%);
+      }
+      50% {
+        filter: brightness(200%);
+      }
+    }
+    
+    
+@keyframes move {
+      0%, 100% {
+        transform: translateY(0px);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+    
+      

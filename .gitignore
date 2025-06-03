@@ -1,0 +1,10 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore built asset directories
+css/
+js/
+
+# Ignore additional PDF resumes or compiled PDFs
+*.pdf
+!KananShah_Resume.pdf

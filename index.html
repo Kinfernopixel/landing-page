@@ -261,78 +261,207 @@
             </div>
          </div>
       </section>
-      <!-- Projects Section -->
-      <section class="ftco-section ftco-project" id="projects-section">
-         <div class="container">
-            <!-- Section Header -->
-            <div class="row justify-content-center pb-5">
-               <div class="col-md-12 heading-section text-center ftco-animate">
-                  <h1 class="big big-2">Projects</h1>
-                  <h2 class="mb-4">Projects</h2>
-                  <p>These projects demonstrate my ability to blend technology with conservation efforts and provide practical solutions to real-world problems.</p>
-               </div>
-            </div>
-            <!-- Project Items -->
-            <div class="row">
-               <div class="col-md-8">
-                  <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-5.jpg);">
-                     <div class="overlay"></div>
-                     <div class="text text-center p-4">
-                        <h3><a href="https://example.com/my-inspection-buddy">MY INSPECTION BUDDY</a></h3>
-                        <span>iOS Application</span>
-                        <p class="mb-0">Streamlines facility inspections with offline data capture and photo uploads.</p>
-						<div class="project-links mt-3">
-                           <a href="images/project-5.jpg" class="btn btn-primary image-popup mr-2" aria-label="View image"><span class="fas fa-search-plus"></span></a>
-                           <a href="https://github.com/Kinfernopixel/my-inspection-buddy" class="btn btn-primary" target="_blank" aria-label="GitHub repo"><span class="fab fa-github"></span></a>
-                        </div>
-                     </div>
-					 </div>
-              </div>
-              <div class="col-md-8">
-                 <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-1.jpg);">
-                    <div class="overlay"></div>
-                    <div class="text text-center p-4">
-                       <h3><a href="https://example.com/hardware-testing">HARDWARE TESTING APPLICATION</a></h3>
-                       <span>Desktop Utility</span>
-                        <p class="mb-0">Runs diagnostics on custom-built devices and generates test reports.</p>
-                      <div class="project-links mt-3">
-                           <a href="images/project-1.jpg" class="btn btn-primary image-popup mr-2" aria-label="View image"><span class="fas fa-search-plus"></span></a>
-                           <a href="https://github.com/Kinfernopixel/hardware-testing" class="btn btn-primary" target="_blank" aria-label="GitHub repo"><span class="fab fa-github"></span></a>
-                        </div>
-                    </div>
-                 </div>
-              </div>
-              <div class="col-md-8">
-                 <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-2.jpg);">
-                    <div class="overlay"></div>
-                    <div class="text text-center p-4">
-                       <h3><a href="https://github.com/username/wildlife-tracker">WILDLIFE TRACKER</a></h3>
-                       <span>Python &amp; Flask</span>
-                        <p class="mb-0">Maps conservation data and provides REST APIs for field researchers.</p>
-                     <div class="project-links mt-3">
-                           <a href="images/project-2.jpg" class="btn btn-primary image-popup mr-2" aria-label="View image"><span class="fas fa-search-plus"></span></a>
-                           <a href="https://github.com/username/wildlife-tracker" class="btn btn-primary" target="_blank" aria-label="GitHub repo"><span class="fab fa-github"></span></a>
-                        </div>
-                    </div>
-                 </div>
-              </div>
-              <div class="col-md-8">
-                 <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-3.jpg);">
-                    <div class="overlay"></div>
-                    <div class="text text-center p-4">
-                       <h3><a href="https://github.com/username/portfolio-site">PORTFOLIO WEBSITE</a></h3>
-                       <span>Next.js</span>
-                        <p class="mb-0">The open-source code for this responsive website.</p>
-                     <div class="project-links mt-3">
-                           <a href="images/project-3.jpg" class="btn btn-primary image-popup mr-2" aria-label="View image"><span class="fas fa-search-plus"></span></a>
-                           <a href="https://github.com/username/portfolio-site" class="btn btn-primary" target="_blank" aria-label="GitHub repo"><span class="fab fa-github"></span></a>
-                        </div>
-                    </div>
-                 </div>
-              </div>
-            </div>
-         </div>
-      </section>
+      <section id="projects-section">
+  <div class="container">
+    <!-- Section Header -->
+    <div class="row justify-content-center pb-5">
+      <div class="col-md-12 heading-section text-center">
+        <h1 class="big big-2">Projects</h1>
+        <h2 class="mb-4">Projects</h2>
+        <p>These projects demonstrate my ability to blend technology with conservation efforts and provide practical solutions to real-world problems.</p>
+      </div>
+    </div>
+    <!-- Projects Grid -->
+    <div class="projects-grid">
+      <!-- Project 1: My Inspection Buddy -->
+      <div class="project-card" style="background-image: url('images/project-5.jpg');">
+        <div class="overlay">
+          <h3>My Inspection Buddy</h3>
+          <p>App assisting medical device inspections.</p>
+          <div class="project-buttons">
+            <a href="https://github.com/Kinfernopixel/MyInspectionBuddy" target="_blank" rel="noopener" class="project-btn">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 2: Hardware Testing Application -->
+      <div class="project-card" style="background-image: url('images/project-1.jpg');">
+        <div class="overlay">
+          <h3>Hardware Testing Application</h3>
+          <p>Runs diagnostics on custom-built devices and generates test reports.</p>
+          <div class="project-buttons">
+            <a href="https://github.com/Kinfernopixel/hardware-testing" target="_blank" rel="noopener" class="project-btn">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 3: Wildlife Tracker -->
+      <div class="project-card" style="background-image: url('images/project-2.jpg');">
+        <div class="overlay">
+          <h3>Wildlife Tracker</h3>
+          <p>Maps conservation data and provides REST APIs for field researchers.</p>
+          <div class="project-buttons">
+            <a href="https://github.com/Kinfernopixel/wildlife-tracker" target="_blank" rel="noopener" class="project-btn">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 4: Portfolio Website -->
+      <div class="project-card" style="background-image: url('images/project-3.jpg');">
+        <div class="overlay">
+          <h3>Portfolio Website</h3>
+          <p>The open-source code for this responsive website.</p>
+          <div class="project-buttons">
+            <a href="https://github.com/Kinfernopixel/landing-page" target="_blank" rel="noopener" class="project-btn">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 5: Car Insurance Predictor -->
+      <div class="project-card" style="background-image: url('images/project-car.jpg');">
+        <div class="overlay">
+          <h3>Car Insurance Predictor</h3>
+          <p>Predict car insurance premiums using machine learning. Built with Streamlit.</p>
+          <div class="project-buttons">
+            <a href="https://github.com/Kinfernopixel/car-insurance-predictor" target="_blank" rel="noopener" class="project-btn">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://car-insurance-predictor-ks.streamlit.app" target="_blank" rel="noopener" class="project-btn">
+              <i class="fas fa-external-link-alt"></i> Live Demo
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 6: LearningTutor.AI -->
+      <div class="project-card" style="background-image: url('images/project-tutor.jpg');">
+        <div class="overlay">
+          <h3>LearningTutor.AI</h3>
+          <p>Full-stack AI-powered learning assistant that generates learning paths, quizzes, and schedules.</p>
+          <div class="project-buttons">
+            <a href="https://github.com/Kinfernopixel/LearningTutor.AI" target="_blank" rel="noopener" class="project-btn">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://learning-tutor-ai.vercel.app" target="_blank" rel="noopener" class="project-btn">
+              <i class="fas fa-external-link-alt"></i> Live Demo
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* Projects Section - Tile Cards Layout */
+  #projects-section {
+    padding: 7em 0;  /* spacing similar to other sections */
+  }
+  @media (max-width: 767px) {
+    #projects-section {
+      padding: 6em 0;
+    }
+  }
+  .projects-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;  /* gap between project cards */
+  }
+  @media (min-width: 768px) {
+    .projects-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (min-width: 1024px) {
+    .projects-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  .project-card {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    overflow: hidden;
+    /* Maintain a consistent aspect ratio for cards */
+    aspect-ratio: 4/3;
+  }
+  /* Dark overlay content (hidden until hover/focus) */
+  .project-card .overlay {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+  /* Reveal overlay on hover or focus (accessibility for keyboard) */
+  .project-card:hover .overlay,
+  .project-card:focus-within .overlay {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  .project-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  .project-card p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .project-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  .project-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+    padding: 0.5em 1em;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    background: transparent;
+    transition: background 0.3s, color 0.3s;
+  }
+  .project-btn:hover, .project-btn:focus {
+    background: #fff;
+    color: #000;
+    outline: none;
+  }
+  .project-btn:focus {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+  }
+  /* Optional: subtle zoom effect on card hover */
+  .project-card:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+  }
+  .project-card:focus-within {
+    transform: scale(1.02);
+  }
+</style>
+
       <!-- Contact Section -->
       <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
          <div class="container">
